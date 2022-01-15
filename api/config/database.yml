@@ -51,6 +51,8 @@ test:
 #
 production:
   <<: *default
-  database: petting_frogs
-  username: api
-  password: <%= ENV['API_DATABASE_PASSWORD'] %>
+  database: <%= ENV['RDS_DATABASE'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOST'] %>
+  post: 3306

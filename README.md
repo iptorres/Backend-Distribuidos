@@ -1,6 +1,4 @@
-# proyecto-lp-api
-Backend REST APIs para el proyecto de Lenguajes de Programacion - ESPOL 2020 2T
+# Backend de proyecto de sistemas distribuidos
+Backend REST APIs para el proyecto de Sistemas Distribuidos en la Nube - ESPOL 2021 2T
 
 
-# Capturas para el avance 1 (Backend)
-## Se encuentran dentro de la carpeta "captures"
